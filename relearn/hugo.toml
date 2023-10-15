@@ -42,15 +42,13 @@ theme = "relearn-theme"
     # Hide the root (first) breadcrumb in the header
     #disableRootBreadcrumb = true
     # If set to true, hide table of contents menu in the header of all pages
-    #disableToc = false
+    disableToc = false
     # If set to false, load the MathJax module on every page regardless if a MathJax shortcode is present
     #disableMathJax = false
 
     disableNextPrev = false
 
     ordersectionsby = "weight"
-
-    themeVariant = "auto"
 
     titleSeparator = "-"
 
@@ -59,6 +57,11 @@ theme = "relearn-theme"
     additionalContentLanguage = [ "en" ]
 
     #externalLinkTarget = "_blank"
+
+  # Change default color scheme with a variant one.
+    themeVariant = [ "relearn-light", "relearn-dark", "zen-light", "zen-dark", "blue" ]
+
+    
 
 [params.imageEffects]
     border = false
@@ -74,3 +77,6 @@ languageName = "English"
 [languages.en.params]
 landingPageName = "<i class='fas fa-home'></i> Home"
 
+[[menu.shortcuts]]
+name = "<i class='fas fa-tags'></i> Tags"
+url = "/tags"
