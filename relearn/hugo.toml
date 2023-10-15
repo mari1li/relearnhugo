@@ -1,0 +1,76 @@
+baseURL = 'http://example.org/'
+relativeURLs = true
+languageCode = 'en-us'
+title = 'Messaging Platform'
+
+theme = "relearn-theme"
+
+
+[outputs]
+    home = [ "HTML", "RSS", "SEARCH", "SEARCHPAGE"]
+    section = ["HTML", "RSS", "PRINT"]
+    page = ["HTML", "RSS", "PRINT"]
+
+[params]
+    alwaysopen = false
+
+    editURL = "https://www.google.com/"
+
+    author = "Truong Team"
+
+    description = "Documentation Site"
+
+    disableSearch = false
+
+    disableSearchHiddenPages = false
+
+    disableTagHiddenPages = false
+
+    disableAssetsBusting = false
+    
+    disableGeneratorVersion = false
+
+    disableShortcutsTitle = false
+
+    disableHoverBlockCopyToClipBoard = false
+
+    disableLandingPageButton = false
+
+    disableLanguageSwitchingButton = false
+
+    #disableBreadcrumb = true
+    # Hide the root (first) breadcrumb in the header
+    #disableRootBreadcrumb = true
+    # If set to true, hide table of contents menu in the header of all pages
+    #disableToc = false
+    # If set to false, load the MathJax module on every page regardless if a MathJax shortcode is present
+    #disableMathJax = false
+
+    disableNextPrev = false
+
+    ordersectionsby = "weight"
+
+    themeVariant = "auto"
+
+    titleSeparator = "-"
+
+    collapsibleMenu = true
+
+    additionalContentLanguage = [ "en" ]
+
+    #externalLinkTarget = "_blank"
+
+[params.imageEffects]
+    border = false
+    lightbox = true
+    shadow = false
+
+
+[languages]
+[languages.en]
+
+weight = 1
+languageName = "English"
+[languages.en.params]
+landingPageName = "<i class='fas fa-home'></i> Home"
+
